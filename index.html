@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
 	<!-- jquery scripts https://code.jquery.com/jquery-3.4.1.min.js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+	<!-- mathjax for math formula -->
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 	<script>
 		$( document ).ready(function() {
@@ -31,7 +34,6 @@
 			<img src="meghana_img.png" style="float:right;width:280px;" alt="Image" id="image_tag">
 		</div>
 		<div id="about_div">
-			<h3>About</h3>
 	        <p>
 	        	I am a doctoral student in the <a = class="link" href="https://www.ti.inf.ethz.ch/ew/index.html">Theory of Combinatorial Algorithms group</a> at ETH Z&uuml;rich, and my supervisors are 
 	        <a class="link" href="https://people.inf.ethz.ch/hoffmann/">Dr.&nbsp;Michael&nbsp;Hoffmann</a> and <a class="link" href="https://people.inf.ethz.ch/emo/">Prof.&nbsp;Emo&nbsp;Welzl</a>. 
@@ -56,16 +58,33 @@
         <h3>Publications and Preprints</h3>
 
         <ul>
+
+        	<br>
         	<li>
+				<b>The Number of Edges in Maximal 2-planar Graphs</a></b><br>
+				<p><a class="link" href="https://people.inf.ethz.ch/hoffmann/">Michael Hoffmann</a> and Meghana M. Reddy.<br>
+				SoCG 2023.</p>
+			</li>
+
+			<br>
+        	<li>
+				<b><a class="link" href="https://link.springer.com/chapter/10.1007/978-3-031-22203-0_2">Compatible Spanning Trees in Simple Drawings of \(K_n\)</a></b><br>
+				<p>Oswin Aichholzer, Kristin Knorr, Wolfgang Mulzer, Nicolas El Maalouly, Johannes Obenaus, Rosna Paul, Meghana M. Reddy, Birgit Vogtenhuber and Alexandra Weinberger.<br>
+				GD 2022.</p>
+			</li>
+
+			<br>
+			<li>
 				<b><a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2022/16177/">Lions and Contamination: Monotone Clearings</a></b><br>
 				<p>Daniel Bertschinger, Meghana M. Reddy and Enrico Mann.<br>
 				SWAT 2022, also awarded the <a class="link" href="https://drops.dagstuhl.de/opus/volltexte/2022/16160/pdf/LIPIcs-SWAT-2022-0.pdf">Best Student Paper Award</a>.</p>
 			</li>
 
 	        <br><li>
-				<b><a class="link" href="https://link.springer.com/chapter/10.1007/978-3-030-92931-2_4">Simplifying Non-Simple Fan-Planar Drawings</a></b><br>
+				<!-- <b><a class="link" href="https://link.springer.com/chapter/10.1007/978-3-030-92931-2_4">Simplifying Non-Simple Fan-Planar Drawings</a></b><br> -->
+				<b><a class="link" href="https://jgaa.info/getPaper?id=618">Simplifying Non-Simple Fan-Planar Drawings</a></b><br>
 				<p><a class="link" href="https://www.informatik.uni-wuerzburg.de/algo/mitarbeiterinnen/klemz-boris/">Boris Klemz</a>, <a class="link" href="https://www.mi.fu-berlin.de/inf/groups/ag-ti/members/wimis/Knorr_Kristin.html">Kristin Knorr</a>, Meghana M. Reddy and <a class="link" href="http://page.math.tu-berlin.de/~fschroed/">Felix Schr&ouml;der</a>.<br>
-				GD 2021.</p>
+				GD 2021 and JGAA 2022.</p>
 			</li>
 		
 			<br>
@@ -76,7 +95,7 @@
 
 			<br><li>
 				<b><a class="link" href="https://link.springer.com/chapter/10.1007%2F978-3-030-68766-3_31">Simple Topological Drawings of k-Planar Graphs</a></b><br>
-				<p><a class="link" href="https://people.inf.ethz.ch/hoffmann/">Michael Hoffmann</a>, Chih-Hung Liu, Meghana M. Reddy, <a class="link" href="http://csabatoth.org/">Csaba D. T&oacute;th</a>.<br>
+				<p><a class="link" href="https://people.inf.ethz.ch/hoffmann/">Michael Hoffmann</a>, Chih-Hung Liu, Meghana M. Reddy and <a class="link" href="http://csabatoth.org/">Csaba D. T&oacute;th</a>.<br>
 				GD 2020.</p>
 			</li>
 
@@ -91,6 +110,13 @@
 				<p>	<a class="link" href="https://akanksha-agrawal.weebly.com/">Akanksha Agrawal</a>, <a class="link" href="https://www.iiitb.ac.in/faculty/pradeesha-ashok">Pradeesha Ashok</a>, Meghana M. Reddy, <a class="link" href="https://www.imsc.res.in/saket_saurabh">Saket Saurabh</a> and Dolly Yadav.</p>
 			</li>
 		</ul>
+		<br>
+
+		<h3>Research visits</h3>
+		<ul>
+			<li><p><a class="link" href="http://page.mi.fu-berlin.de/mulzer/">Prof. Wolfgang Mulzer,</a> FU Berlin, Germany, March-April 2022.</p></li>
+		</ul>
+
 		<br>
 
 
@@ -109,6 +135,11 @@
 		<h3>Talks and seminars</h3>
 
 		<ul>
+
+			<li>
+				<b><p>The Number of Edges in Maximal 2-planar Graphs, </b><a class="link" href="https://ti.inf.ethz.ch/ew/mise/mittagssem.html?action=show&what=abstract&id=a6fbf41b43d6c0a1e6cd873f0e761492fb155ce7">Mittagsseminar</a>, ETH Z&uuml;rich, Switzerland, October 2022.</p>
+			</li>
+
 			<li>
 				<b><p>Lions and Contamination, </b><a class="link" href="https://www3.math.tu-berlin.de/diskremath/index.php?show=seminar">Mittagsseminar</a>, TU Berlin, March 2022.</p>
 			</li>
@@ -171,7 +202,7 @@
     	</ul>
         <br>  
 
-        <p>Last updated in August 2022.</p>
+        <p>Last updated in March 2023.</p>
         <br>
             
     </div>
